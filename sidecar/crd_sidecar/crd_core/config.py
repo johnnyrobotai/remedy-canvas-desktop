@@ -116,7 +116,7 @@ class Settings:
         """Extra HTTP headers to attach to every request, e.g. OpenRouter attribution."""
         if self.provider == Provider.OPENROUTER:
             return {
-                "HTTP-Referer": "https://github.com/projectremedyai/remedy-canvas-desktop",
+                "HTTP-Referer": "https://github.com/johnnyrobotai/remedy-canvas-desktop",
                 "X-Title": "Remedy Canvas Desktop",
             }
         return {}
